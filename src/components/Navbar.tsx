@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
       boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
     }}>
       <div style={{ fontWeight: 'bold', fontSize: '1.5rem', color: '#333' }}>
-        Gauri Boutique
+        <a href="/shop">Gauri Boutique</a>
       </div>
       <div style={{ display: 'flex', gap: '1.5rem' }}>
         <a href="/shop" style={{ textDecoration: 'none', color: '#333', fontWeight: 500 }}>
