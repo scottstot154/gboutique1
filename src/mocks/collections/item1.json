@@ -1,0 +1,12 @@
+{   "itemId": "item1",
+    "image": "/images/collections/item1.png",
+    "title": "Summer Collection",
+    "description": "Bright and breezy styles for the summer season.",
+    "cost": 1500,
+    "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+    ]
+  }

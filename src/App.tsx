@@ -1,7 +1,9 @@
-// src/App.tsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HomePage from './components/pages/HomePage';
+import CreateUserPage from './components/pages/CreateUserPage';
+import Footer from './components/Footer';
+import DetailPage from './components/pages/DetailPage';
 
 const App = () => {
   return (
@@ -9,7 +11,11 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/shop" element={<HomePage />} />
+        <Route path="/register" element={<CreateUserPage />} />
+        <Route path="/collections/:name" element={<DetailPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };

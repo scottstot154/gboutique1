@@ -1,0 +1,36 @@
+[
+  {
+    "itemId": "item1",
+    "image": "/images/collections/item1.png",
+    "title": "Item 1",
+    "description": "Bright and breezy styles for the summer season.",
+    "cost": 1500,
+    "sizes": [
+        "L",
+        "XL"
+    ]
+  },
+  {
+    "itemId": "item2",
+    "image": "/images/collections/item2.png",
+    "title": "Item 2",
+    "description": "Warm and cozy outfits for winter.",
+    "cost": 2000,
+    "sizes": [
+        "S",
+        "M"
+    ]
+  },
+  {
+    "itemId": "item3",
+    "image": "/images/collections/item3.png",
+    "title": "Item 3",
+    "description": "Celebrate in style with our festive picks.",
+    "cost": 1800,
+    "sizes": [
+        "M",
+        "L",
+        "XL"
+    ]
+  }
+]

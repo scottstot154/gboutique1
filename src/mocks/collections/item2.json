@@ -1,0 +1,11 @@
+{
+    "itemId": "item2",
+    "image": "/images/collections/item2.png",
+    "title": "Winter Collection",
+    "description": "Warm and cozy outfits for winter.",
+    "cost": 2000,
+    "sizes": [
+        "S",
+        "M"
+    ]
+  }
