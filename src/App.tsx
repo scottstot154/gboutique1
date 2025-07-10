@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import HomePage from './components/pages/HomePage';
-import CreateUserPage from './components/pages/CreateUserPage';
-import Footer from './components/Footer';
-import DetailPage from './components/pages/DetailPage';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./components/pages/HomePage";
+import CreateUserPage from "./components/pages/CreateUserPage";
+import Footer from "./components/Footer";
+import DetailPage from "./components/pages/DetailPage";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (

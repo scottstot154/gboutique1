@@ -4,9 +4,12 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Brand & Message */}
         <div>
-          <h3 className="text-xl font-semibold text-green-700">Gauri Boutique</h3>
+          <h3 className="text-xl font-semibold text-green-700">
+            Gauri Boutique
+          </h3>
           <p className="mt-2 text-sm">
-            Handcrafted elegance woven for the modern soul. Discover timeless ethnic wear with a contemporary twist.
+            Handcrafted elegance woven for the modern soul. Discover timeless
+            ethnic wear with a contemporary twist.
           </p>
         </div>
 
@@ -14,10 +17,26 @@ const Footer = () => {
         <div>
           <h4 className="text-md font-semibold mb-3">Quick Links</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="/" className="hover:underline">Home</a></li>
-            <li><a href="/shop" className="hover:underline">Shop</a></li>
-            <li><a href="/register" className="hover:underline">Register</a></li>
-            <li><a href="/contact" className="hover:underline">Contact</a></li>
+            <li>
+              <a href="/" className="hover:underline">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="/shop" className="hover:underline">
+                Shop
+              </a>
+            </li>
+            <li>
+              <a href="/register" className="hover:underline">
+                Register
+              </a>
+            </li>
+            <li>
+              <a href="/contact" className="hover:underline">
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
 

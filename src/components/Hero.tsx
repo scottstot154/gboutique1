@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface HeroProps {
   backgroundImage: string;
@@ -11,39 +11,21 @@ const Hero: React.FC<HeroProps> = ({
   backgroundImage,
   title,
   subtitle,
-  height = '60vh',
+  height = "60vh",
 }) => (
   <section
+    className="relative flex items-center justify-center text-white"
     style={{
       backgroundImage: `url(${backgroundImage})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
+      backgroundSize: "cover",
+      backgroundPosition: "center",
       height,
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      position: 'relative',
-      color: '#fff',
     }}
   >
-    <div
-      style={{
-        position: 'absolute',
-        inset: 0,
-        background: 'rgba(0,0,0,0.4)',
-        zIndex: 1,
-      }}
-    />
-    <div
-      style={{
-        position: 'relative',
-        zIndex: 2,
-        textAlign: 'center',
-        padding: '0 1rem',
-      }}
-    >
-      <h1 style={{ fontSize: '3rem', margin: 0 }}>{title}</h1>
-      {subtitle && <p style={{ fontSize: '1.5rem', marginTop: '1rem' }}>{subtitle}</p>}
+    <div className="absolute inset-0 bg-black/40 z-10" />
+    <div className="relative z-20 text-center px-4">
+      <h1 className="text-5xl m-0">{title}</h1>
+      {subtitle && <p className="text-2xl mt-4">{subtitle}</p>}
     </div>
   </section>
 );
